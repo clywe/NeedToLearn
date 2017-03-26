@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">English Cards</string>
+    <string name="colors_eng">0|red|blue|yellow|green|orange|grey|black</string>
+    <string name="colors_rus">0|красный|синий|жёлтый|зелёный|оранжевый|серый|чёрный</string>
+</resources>
