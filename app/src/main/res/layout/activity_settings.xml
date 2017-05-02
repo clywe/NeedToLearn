@@ -14,25 +14,22 @@
         android:layout_height="wrap_content"
         android:text="Язык озвучки"
         android:layout_above="@+id/LanguageSpinner"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentLeft="true" />
 
     <Spinner
         android:id="@+id/LanguageSpinner"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/languages"
         android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:entries="@array/languages" />
 
     <CheckBox
         android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="31dp"
         android:text="Озвучивать слова сразу"
-        android:layout_marginBottom="34dp"
-        android:layout_above="@+id/language"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/language" />
 
 </RelativeLayout>
 
